@@ -61,7 +61,7 @@
         display: flex;
         align-content: center;
     }
-    ul {
+    .ul1 {
         margin: auto;
         list-style: none;
         width: 70vw;
@@ -74,8 +74,8 @@
     }
     nav ul li a {
         text-decoration: none;
-        font-size: 1.5em;
         color: white;
+        font-style: bolder;
     }
     .news {
         background-color: lightgrey;
@@ -99,8 +99,25 @@
         height: 5vw;
         text-align: center;
     }
+
     img {
         width: 100%;
+    }
+
+    #foot {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        margin:0;
+    }
+
+    .ul2 {
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        align-content: center;
     }
 }
 
@@ -111,10 +128,12 @@
         padding: 0;
         margin: 0;
     }
+
     main {
         padding: 0 3%;
         margin: auto;
     }
+
     .banner1 {
         background-image: url("img/banner-1.png");
         display: block;
@@ -124,6 +143,7 @@
         background-repeat: no-repeat;
         margin: auto;
     }
+
     .banner2 {
         background-image: url("img/banner-3.png");
         background-size: contain;
@@ -133,6 +153,7 @@
         background-repeat: no-repeat;
         margin: auto;
     }
+
     .flex1 {
         display: flex;
         flex-direction: row;
@@ -140,6 +161,7 @@
         margin: auto;
         padding: 2em 0;
     }
+
     #grid {
         display: grid;
         margin: auto;
@@ -150,6 +172,7 @@
         grid-template-rows: 1fr 1fr;
         gap: 1em 5em;
     }
+
     .griditem {
         width: 40vw;
         height: 35vw;
@@ -166,43 +189,52 @@
         align-content: center;
         height: 20vw;
     }
+
     footer {
         background-color: black;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         flex-direction: column;
         padding: 1em 0;
+        margin:auto;
     }
+
     .logo {
         margin: auto;
-        width: 25vw;
+        width: 22vw;
     }
+
     nav {
         background-color: black;
         display: flex;
         align-content: flex-start;
     }
-    ul {
+
+    .ul1 {
         width: 50vw;
         display: flex;
         justify-content: space-between;
         list-style: none;
     }
+
     ul li {
         font-size: 1.3em;
         font-weight: bolder;
     }
+
     li a {
         text-decoration: none;
         font-size: 1.5em;
         color: white;
     }
+
     .news {
         background-color: lightgrey;
         height: 4em;
         text-align: center;
     }
+
     .block {
         width: 25vw;
         height: 23vw;
@@ -211,15 +243,18 @@
         margin: auto;
         background-color: black;
     }
+
     .pic {
         height: 80%;
     }
+
     .text {
         margin: auto;
         color: white;
         text-align: center;
         padding: 3%;
     }
+
     img {
         width: 100%;
     }
@@ -228,5 +263,14 @@
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
+        width: 100%;
+        margin:0;
+    }
+
+    .ul2 {
+        width: 35vw;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
     }
 }
