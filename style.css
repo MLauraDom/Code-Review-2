@@ -1,0 +1,93 @@
+
+body {
+
+    font-family: 'Lato', sans-serif;
+    font-style: bold;
+
+}
+
+header {
+    background-color: #470000;
+    height: 25vw;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin: auto;
+    width: 50vw;
+}
+
+nav {
+    background-color: black;
+    height: 2.8em;
+    display:flex;
+    align-content: center;
+}
+
+ul {
+    margin: auto;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+ ul li {
+     text-decoration: none;
+     font-size: 1.2em;
+     
+
+ }
+ nav ul li a {
+     text-decoration: none;
+     font-size: 1.5em;
+     color: white;
+ }
+
+ .news {
+     background-color: lightgrey;
+     height: 4em;
+     text-align: center;
+ }
+
+ .grid {
+    display: grid;
+    column-gap: 2em;
+    row-gap: 2em;
+    margin:auto;
+    padding: 2em 0;
+ }
+
+ .block {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    background-color: black;
+ }
+
+ .pic {
+     height: 80%;
+
+ }
+
+ .text {
+    margin: auto;
+    color: white;
+    height: 20%;
+ }
+
+ .banner1 {
+     width:auto
+     height:
+
+ }
+
+ footer {
+    background-color: black;
+    height: 50vw;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
