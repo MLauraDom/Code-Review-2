@@ -139,8 +139,8 @@
   }
   .date {
     text-align: left;
-    height: 2em;
-    color: none;
+    height: 0;
+    visibility: hidden;
   }
   .block {
     width: 80vw;
