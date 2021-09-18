@@ -339,6 +339,7 @@
     text-align: right;
     height: 5vw;
     color: black;
+    visibility: visible;
   }
   .block {
     width: 40vw;
@@ -542,6 +543,7 @@
     text-align: right;
     height: 5vw;
     color: black;
+    visibility: visible;
   }
   .block {
     width: 25vw;
