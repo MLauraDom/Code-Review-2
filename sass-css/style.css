@@ -199,6 +199,10 @@
     width: 60%;
     margin: auto;
   }
+  h3 a {
+    text-decoration: none;
+    color: white
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -392,6 +396,10 @@
     font-weight: bolder;
     width: 60%;
     margin: auto;
+  }
+  h3 a {
+    text-decoration: none;
+    color: white
   }
 }
 
@@ -592,6 +600,11 @@
     font-weight: bolder;
     width: 60%;
     margin: auto;
+  }
+  
+  h3 a {
+    text-decoration: none;
+    color: white
   }
 }
 /*# sourceMappingURL=style.css.map */
