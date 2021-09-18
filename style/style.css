@@ -138,8 +138,9 @@
     }
     .zoo {
         text-align:center;
-        padding: 3%;
         font-weight: bolder;
+        width: 60%;
+        margin: auto;
     }
 }
 
@@ -302,8 +303,9 @@
     }
     .zoo {
         text-align:center;
-        padding: 3%;
         font-weight: bolder;
+        width: 60%;
+        margin: auto;
     }
 }
 
@@ -465,7 +467,8 @@
     }
     .zoo {
         text-align:center;
-        padding: 3%;
         font-weight: bolder;
+        width: 60%;
+        margin: auto;
     }
 }
