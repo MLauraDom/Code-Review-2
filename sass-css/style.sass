@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px) 
+@media screen and (max-width: 480px) 
   body 
     font-family: "Roboto", sans-serif
     font-style: bold
@@ -18,30 +18,18 @@
     height: 0px
     display: block
  
-  .flex1 
-    display: -webkit-box
-    display: -ms-flexbox
+  .flex1
     display: flex
-    -webkit-box-orient: vertical
-    -webkit-box-direction: normal
-        -ms-flex-direction: column
-            flex-direction: column
-    -webkit-column-gap: 2em
-            column-gap: 2em
+    flex-direction: columns
+    column-gap: 2em
     row-gap: 2em
     margin: auto
     padding: 2em 0
  
-  #grid 
-    display: -webkit-box
-    display: -ms-flexbox
-    display: flex
-    -webkit-box-orient: vertical
-    -webkit-box-direction: normal
-        -ms-flex-direction: column
-            flex-direction: column
-    -webkit-column-gap: 2em
-            column-gap: 2em
+  #grid
+    display: flex1
+    flex-direction: columns
+    column-gap: 2em
     row-gap: 2em
     margin: auto
     padding: 2em 0
@@ -49,41 +37,24 @@
   .griditem 
     width: 80vw
     height: 100%
-    display: -webkit-box
-    display: -ms-flexbox
     display: flex
-    -webkit-box-orient: vertical
-    -webkit-box-direction: normal
-        -ms-flex-direction: column
-            flex-direction: column
+    flex-direction: column
     margin: auto
     background-color: black
  
   header 
     background-color: #470000
     height: 25vw
-    display: -webkit-box
-    display: -ms-flexbox
     display: flex
-    -webkit-box-align: center
-        -ms-flex-align: center
-            align-items: center
+    align-items: center
  
   footer 
     background-color: black
     height: 50vw
-    display: -webkit-box
-    display: -ms-flexbox
     display: flex
-    -ms-flex-pack: distribute
-        justify-content: space-around
-    -webkit-box-align: center
-        -ms-flex-align: center
-            align-items: center
-    -webkit-box-orient: vertical
-    -webkit-box-direction: normal
-        -ms-flex-direction: column
-            flex-direction: column
+    justify-content: space-around
+    align-items: center
+    flex-direction: column
  
   .logo 
     margin: auto
@@ -92,22 +63,14 @@
   nav 
     background-color: black
     height: 2.8em
-    display: -webkit-box
-    display: -ms-flexbox
-    display: flex
-    -ms-flex-line-pack: center
-        align-content: center
+    align-content: center
  
   .ul1 
     margin: auto
     list-style: none
     width: 70vw
-    display: -webkit-box
-    display: -ms-flexbox
     display: flex
-    -webkit-box-pack: justify
-        -ms-flex-pack: justify
-            justify-content: space-between
+    justify-content: space-between
  
   ul li 
     text-decoration: none
@@ -123,13 +86,9 @@
     background-color: lightgrey
     padding: 0.2em
     margin: 0.5em 0
-    display: -webkit-box
-    display: -ms-flexbox
     display: flex
-    -ms-flex-line-pack: center
-        align-content: center
-    -ms-flex-pack: distribute
-        justify-content: space-around
+    align-content: center
+    justify-content: space-around
  
   .date 
     text-align: left
@@ -139,13 +98,8 @@
   .block 
     width: 80vw
     height: 100%
-    display: -webkit-box
-    display: -ms-flexbox
     display: flex
-    -webkit-box-orient: vertical
-    -webkit-box-direction: normal
-        -ms-flex-direction: column
-            flex-direction: column
+    flex-direction: column
     margin: auto
     background-color: black
  
@@ -162,30 +116,18 @@
     width: 100%
  
   #foot 
-    display: -webkit-box
-    display: -ms-flexbox
     display: flex
-    -webkit-box-orient: vertical
-    -webkit-box-direction: normal
-        -ms-flex-direction: column
-            flex-direction: column
-    -webkit-box-pack: justify
-        -ms-flex-pack: justify
-            justify-content: space-between
+    flex-direction: column
+    justify-content: space-between
     width: 100%
     margin: 0
  
   .ul2 
     width: 80vw
-    display: -webkit-box
-    display: -ms-flexbox
     display: flex
-    -webkit-box-pack: justify
-        -ms-flex-pack: justify
-            justify-content: space-between
+    justify-content: space-between
     list-style: none
-    -ms-flex-line-pack: center
-        align-content: center
+    align-content: center
  
   .zoo 
     text-align: center
@@ -197,6 +139,151 @@
     text-decoration: none
     color: white
  
+@media screen and (min-width: 481px) and (max-width: 768px) 
+  body 
+    font-family: "Roboto", sans-serif
+    font-style: bold
+    padding: 0
+    margin: 0
+ 
+  main 
+    padding: 0 3%
+    margin: auto
+ 
+  .banner1 
+    display: block
+    width: 50%
+    height: 50%
+    margin: auto
+ 
+  .banner2 
+    display: block
+    width: 90%
+    height: 10vw
+    margin: auto
+ 
+  .flex1 
+    display: grid
+    margin: auto
+    padding: 2em 0
+    grid-template-columns: 1fr 1fr
+ 
+  #grid 
+    display: grid
+    margin: auto
+    padding: 2em 0
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-template-rows: 1fr 1fr
+    gap: 1em 5em
+ 
+  .griditem 
+    width: 40vw
+    height: 35vw
+    display: flex
+    flex-direction: column
+    margin: auto
+    background-color: black
+ 
+  header 
+    background-color: #470000
+    display: flex
+    justify-content: space-around
+    align-content: center
+    height: 20vw
+ 
+  footer 
+    background-color: black
+    display: flex
+    align-items: center
+    flex-direction: column
+    padding: 1em 0
+    margin: auto
+    height: 35vw
+ 
+  .logo 
+    margin: auto
+    width: 30vw
+ 
+  nav 
+    background-color: black
+    display: flex
+    align-content: flex-start
+ 
+  .ul1 
+    width: 50vw
+    display: flex
+    justify-content: space-between
+    list-style: none
+ 
+  ul li 
+    font-size: 1.3em
+    font-weight: bolder
+ 
+  li a 
+    text-decoration: none
+    font-size: 1.5em
+    color: white
+ 
+  .news 
+    background-color: lightgrey
+    padding: 0.2em
+    margin: 0.5em 0
+    display: flex
+    align-content: center
+    justify-content: space-around
+ 
+  .date 
+    text-align: right
+    height: 5vw
+    color: black
+    visibility: visible
+ 
+  .block 
+    width: 40vw
+    height: 100%
+    display: flex
+    flex-direction: column
+    margin: auto
+    background-color: black
+ 
+  .pic 
+    height: 80%
+ 
+  .text 
+    margin: auto
+    color: white
+    text-align: center
+    padding: 3%
+    height: 6vw
+ 
+  img 
+    width: 100%
+ 
+  #foot 
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    width: 70%
+    height: 20vw
+    margin: 0
+ 
+  .ul2 
+    width: 70vw
+    display: flex
+    justify-content: space-between
+    list-style: none
+ 
+  .zoo 
+    text-align: center
+    font-weight: bolder
+    width: 60%
+    margin: auto
+ 
+  h3 a 
+    text-decoration: none
+    color: white
+
 @media screen and (min-width: 768px) 
   body 
     font-family: "Roboto", sans-serif
@@ -221,268 +308,41 @@
     margin: auto
  
   .flex1 
-    display: -ms-grid
-    display: grid
+    display: flex
+    flex-direction: row
+    justify-content: space-between
     margin: auto
     padding: 2em 0
-    -ms-grid-rows: 1fr 1fr
-        grid-template-rows: 1fr 1fr
-    -ms-grid-rows: 1fr
-        grid-template-rows: 1fr
-    -ms-grid-columns: 1fr 1fr
-        grid-template-columns: 1fr 1fr
  
-  #grid 
-    display: -ms-grid
+  #grid
     display: grid
     margin: auto
     padding: 2em 0
     display: grid
-    -ms-grid-columns: 1fr 1fr
-        grid-template-columns: 1fr 1fr
-    -ms-grid-rows: 1fr 1fr
-        grid-template-rows: 1fr 1fr
+    grid-template-columns: 1fr 1fr
     gap: 1em 5em
  
   .griditem 
     width: 40vw
     height: 35vw
-    display: -webkit-box
-    display: -ms-flexbox
     display: flex
-    -webkit-box-orient: vertical
-    -webkit-box-direction: normal
-        -ms-flex-direction: column
-            flex-direction: column
+    flex-direction: column
     margin: auto
     background-color: black
  
   header 
     background-color: #470000
-    display: -webkit-box
-    display: -ms-flexbox
     display: flex
-    -ms-flex-pack: distribute
-        justify-content: space-around
-    -ms-flex-line-pack: center
-        align-content: center
+    justify-content: space-around
+    align-content: center
     height: 20vw
  
   footer 
     background-color: black
-    display: -webkit-box
-    display: -ms-flexbox
     display: flex
-    -webkit-box-align: center
-        -ms-flex-align: center
-            align-items: center
-    -webkit-box-orient: vertical
-    -webkit-box-direction: normal
-        -ms-flex-direction: column
-            flex-direction: column
-    padding: 1em 0
-    margin: auto
-    height: 35vw
- 
-  .logo 
-    margin: auto
-    width: 30vw
- 
-  nav 
-    background-color: black
-    display: -webkit-box
-    display: -ms-flexbox
-    display: flex
-    -ms-flex-line-pack: start
-        align-content: flex-start
- 
-  .ul1 
-    width: 50vw
-    display: -webkit-box
-    display: -ms-flexbox
-    display: flex
-    -webkit-box-pack: justify
-        -ms-flex-pack: justify
-            justify-content: space-between
-    list-style: none
- 
-  ul li 
-    font-size: 1.3em
-    font-weight: bolder
- 
-  li a 
-    text-decoration: none
-    font-size: 1.5em
-    color: white
- 
-  .news 
-    background-color: lightgrey
-    padding: 0.2em
-    margin: 0.5em 0
-    display: -webkit-box
-    display: -ms-flexbox
-    display: flex
-    -ms-flex-line-pack: center
-        align-content: center
-    -ms-flex-pack: distribute
-        justify-content: space-around
- 
-  .date 
-    text-align: right
-    height: 5vw
-    color: black
-    visibility: visible
- 
-  .block 
-    width: 40vw
-    height: 100%
-    display: -webkit-box
-    display: -ms-flexbox
-    display: flex
-    -webkit-box-orient: vertical
-    -webkit-box-direction: normal
-        -ms-flex-direction: column
-            flex-direction: column
-    margin: auto
-    background-color: black
- 
-  .pic 
-    height: 80%
- 
-  .text 
-    margin: auto
-    color: white
-    text-align: center
-    padding: 3%
-    height: 6vw
- 
-  img 
-    width: 100%
- 
-  #foot 
-    display: -webkit-box
-    display: -ms-flexbox
-    display: flex
-    -webkit-box-orient: vertical
-    -webkit-box-direction: normal
-        -ms-flex-direction: column
-            flex-direction: column
-    -webkit-box-pack: justify
-        -ms-flex-pack: justify
-            justify-content: space-between
-    width: 70%
-    height: 20vw
-    margin: 0
- 
-  .ul2 
-    width: 70vw
-    display: -webkit-box
-    display: -ms-flexbox
-    display: flex
-    -webkit-box-pack: justify
-        -ms-flex-pack: justify
-            justify-content: space-between
-    list-style: none
- 
-  .zoo 
-    text-align: center
-    font-weight: bolder
-    width: 60%
-    margin: auto
- 
-  h3 a 
-    text-decoration: none
-    color: white
-
-@media screen and (min-width: 992px) 
-  body 
-    font-family: "Roboto", sans-serif
-    font-style: bold
-    padding: 0
-    margin: 0
- 
-  main 
-    padding: 0 3%
-    margin: auto
- 
-  .banner1 
-    display: block
-    width: 50%
-    height: 50%
-    margin: auto
- 
-  .banner2 
-    display: block
-    width: 90%
-    height: 10vw
-    margin: auto
- 
-  .flex1 
-    display: -webkit-box
-    display: -ms-flexbox
-    display: flex
-    -webkit-box-orient: horizontal
-    -webkit-box-direction: normal
-        -ms-flex-direction: row
-            flex-direction: row
-    -webkit-box-pack: justify
-        -ms-flex-pack: justify
-            justify-content: space-between
-    margin: auto
-    padding: 2em 0
- 
-  #grid 
-    display: -ms-grid
-    display: grid
-    margin: auto
-    padding: 2em 0
-    display: grid
-    -ms-grid-columns: 1fr 1fr
-        grid-template-columns: 1fr 1fr
-    -ms-grid-rows: 1fr 1fr
-        grid-template-rows: 1fr 1fr
-    grid-template-rows: 1fr 1fr
-    gap: 1em 5em
- 
-  .griditem 
-    width: 40vw
-    height: 35vw
-    display: -webkit-box
-    display: -ms-flexbox
-    display: flex
-    -webkit-box-orient: vertical
-    -webkit-box-direction: normal
-        -ms-flex-direction: column
-            flex-direction: column
-    margin: auto
-    background-color: black
- 
-  header 
-    background-color: #470000
-    display: -webkit-box
-    display: -ms-flexbox
-    display: flex
-    -ms-flex-pack: distribute
-        justify-content: space-around
-    -ms-flex-line-pack: center
-        align-content: center
-    height: 20vw
- 
-  footer 
-    background-color: black
-    display: -webkit-box
-    display: -ms-flexbox
-    display: flex
-    -webkit-box-pack: justify
-        -ms-flex-pack: justify
-            justify-content: space-between
-    -webkit-box-align: center
-        -ms-flex-align: center
-            align-items: center
-    -webkit-box-orient: vertical
-    -webkit-box-direction: normal
-        -ms-flex-direction: column
-            flex-direction: column
+    justify-content: space-between
+    align-items: center
+    flex-direction: column
     padding: 1em 0
     margin: auto
  
@@ -492,20 +352,13 @@
  
   nav 
     background-color: black
-    display: -webkit-box
-    display: -ms-flexbox
     display: flex
-    -ms-flex-line-pack: start
-        align-content: flex-start
+    align-content: flex-start
  
   .ul1 
     width: 50vw
-    display: -webkit-box
-    display: -ms-flexbox
     display: flex
-    -webkit-box-pack: justify
-        -ms-flex-pack: justify
-            justify-content: space-between
+    justify-content: space-between
     list-style: none
  
   ul li 
@@ -521,13 +374,9 @@
     background-color: lightgrey
     padding: 0.2em
     margin: 0.5em 0
-    display: -webkit-box
-    display: -ms-flexbox
     display: flex
-    -ms-flex-line-pack: center
-        align-content: center
-    -ms-flex-pack: distribute
-        justify-content: space-around
+    align-content: center
+    justify-content: space-around
  
   .date 
     text-align: right
@@ -538,13 +387,8 @@
   .block 
     width: 25vw
     height: 23vw
-    display: -webkit-box
-    display: -ms-flexbox
     display: flex
-    -webkit-box-orient: vertical
-    -webkit-box-direction: normal
-        -ms-flex-direction: column
-            flex-direction: column
+    flex-direction: column
     margin: auto
     background-color: black
  
@@ -561,30 +405,17 @@
     width: 100%
  
   #foot 
-    display: -webkit-box
-    display: -ms-flexbox
     display: flex
-    -webkit-box-orient: horizontal
-    -webkit-box-direction: reverse
-        -ms-flex-direction: row-reverse
-            flex-direction: row-reverse
-    -webkit-box-pack: justify
-        -ms-flex-pack: justify
-            justify-content: space-between
-    -webkit-box-align: center
-        -ms-flex-align: center
-            align-items: center
+    flex-direction: row-reverse
+    justify-content: space-between
+    align-items: center
     width: 100%
     margin: 0
  
   .ul2 
     width: 40vw
-    display: -webkit-box
-    display: -ms-flexbox
     display: flex
-    -webkit-box-pack: justify
-        -ms-flex-pack: justify
-            justify-content: space-between
+    justify-content: space-between
     list-style: none
  
   .zoo 
@@ -597,5 +428,3 @@
   h3 a 
     text-decoration: none
     color: white
-
-/*# sourceMappingURL=style.css.map */
