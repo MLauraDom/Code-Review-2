@@ -1,0 +1,474 @@
+@media screen and (max-width: 480px) {
+  body {
+    font-family: "Roboto", sans-serif;
+    font-style: bold;
+    padding: 0;
+    margin: 0;
+  }
+
+  main {
+    padding: 0 3%;
+  }
+
+  .banner1 {
+    width: 0px;
+    height: 0px;
+    display: block;
+  }
+
+  .banner2 {
+    width: 0px;
+    height: 0px;
+    display: block;
+  }
+
+  .flex1 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 2em 0;
+  }
+
+  #grid {
+    display: flex1;
+    flex-direction: column;
+    margin: auto;
+    padding: 2em 0;
+  }
+
+  .griditem {
+    width: 80vw;
+    height: 100%;
+    margin: 1em;
+    background-color: black;
+  }
+
+  header {
+    background-color: #470000;
+    height: 25vw;
+    display: flex;
+    align-items: center;
+  }
+
+  footer {
+    background-color: black;
+    height: 50vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .logo {
+    margin: auto;
+    width: 50vw;
+  }
+
+  .logo2 {
+    margin: auto;
+    width: 40vw;
+  }
+
+  nav {
+    display: flex;
+    background-color: black;
+    height: 2.8em;
+    align-content: center;
+  }
+
+  .ul1 {
+    margin: auto;
+    list-style: none;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  ul li {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-style: bolder;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-style: bolder;
+  }
+
+  .news {
+    background-color: lightgrey;
+    padding: 0.2em;
+    margin: auto;
+    text-align: center;
+  }
+
+  .date {
+    text-align: left;
+    height: 0;
+    visibility: hidden;
+  }
+
+  .block {
+    width: 80vw;
+    height: 100%;
+    margin: 1em;
+    background-color: black;
+  }
+
+  .pic {
+    height: 80%;
+  }
+
+  .text {
+    margin: auto;
+    color: white;
+    height: 10vw;
+    text-align: center;
+  }
+
+  .text > a {
+    text-decoration: none;
+    color: white;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  #foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+  }
+
+  .ul2 {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-content: center;
+  }
+
+  .zoo {
+    text-align: center;
+    font-weight: bolder;
+    width: 60%;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  body {
+    font-family: "Roboto", sans-serif;
+    font-style: bold;
+    padding: 0;
+    margin: 0;
+  }
+
+  main {
+    padding: 0 3%;
+  }
+
+  .banner1 {
+    width: 50%;
+    padding: 1em;
+  }
+
+  .banner2 {
+    width: 90%;
+    margin: auto;
+  }
+
+  .flex1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1em;
+    margin: auto;
+    padding: 2em 0;
+  }
+
+  #grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1em;
+    margin: auto;
+    padding: 2em 0;
+  }
+
+  .griditem {
+    height: 100%;
+    margin: 1em;
+    background-color: black;
+  }
+
+  header {
+    background-color: #470000;
+    height: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  footer {
+    background-color: black;
+    height: 35vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .logo {
+    margin: auto;
+    width: 30vw;
+  }
+
+  .logo2 {
+    margin: auto;
+    width: 30vw;
+  }
+
+  nav {
+    display: flex;
+    background-color: black;
+    height: 2.8em;
+    align-content: flex-start;
+  }
+
+  .ul1 {
+    list-style: none;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  ul li {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-style: bolder;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-style: bolder;
+  }
+
+  .news {
+    background-color: lightgrey;
+    padding: 0.2em;
+    margin: auto;
+    text-align: center;
+  }
+
+  .date {
+    text-align: left;
+  }
+
+  .block {
+    height: 100%;
+    margin: 1em;
+    background-color: black;
+  }
+
+  .pic {
+    height: 80%;
+    width: 100%;
+    objekt-fit: cover;
+  }
+
+  .text {
+    margin: auto;
+    color: white;
+    text-align: center;
+  }
+
+  .text > a {
+    text-decoration: none;
+    color: white;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  #foot {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+
+  .ul2 {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-content: center;
+  }
+
+  .zoo {
+    text-align: center;
+    font-weight: bolder;
+    width: 60%;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    font-family: "Roboto", sans-serif;
+    font-style: bold;
+    padding: 0;
+    margin: 0;
+  }
+
+  main {
+    padding: 0 3%;
+  }
+
+  .banner1 {
+    width: 40%;
+    padding: 1em;
+  }
+
+  .banner2 {
+    width: 90%;
+    margin: auto;
+  }
+
+  .flex1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    padding: 1% 0;
+  }
+
+  #grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    padding: 1% 0;
+  }
+
+  .griditem {
+    background-color: black;
+  }
+
+  .pic {
+    height: 80%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  header {
+    background-color: #470000;
+    height: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  footer {
+    background-color: black;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 3em 0 0 0;
+  }
+
+  .logo {
+    margin: auto;
+    width: 20vw;
+  }
+
+  .logo2 {
+    padding: 1em;
+    width: 20vw;
+  }
+
+  nav {
+    display: flex;
+    background-color: black;
+    align-content: flex-start;
+    pading: 0.5em;
+  }
+
+  .ul1 {
+    list-style: none;
+    width: 35vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  ul li {
+    text-decoration: none;
+    font-size: 2em;
+    font-style: bolder;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-style: bolder;
+  }
+
+  .news {
+    background-color: lightgrey;
+    padding: 0.2em;
+    margin: auto;
+    text-align: center;
+  }
+
+  .date {
+    text-align: right;
+    padding: 2em;
+  }
+
+  .block {
+    background-color: black;
+  }
+
+  .text {
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .text > a {
+    text-decoration: none;
+    color: white;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  #foot {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    margin: 3em;
+  }
+
+  .ul2 {
+    width: 45vw;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-content: center;
+  }
+
+  .zoo {
+    text-align: center;
+    font-weight: bolder;
+    width: 60%;
+    margin: auto;
+  }
+}/*# sourceMappingURL=style.css.map */
