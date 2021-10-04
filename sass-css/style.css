@@ -58,6 +58,7 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    color: white;
   }
 
   .logo {
@@ -224,6 +225,7 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    color: white;
   }
 
   .logo {
@@ -390,6 +392,7 @@
     align-items: center;
     flex-direction: column;
     margin: 3em 0 0 0;
+    color: white;
   }
 
   .logo {
