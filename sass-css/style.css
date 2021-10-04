@@ -4,6 +4,7 @@
     font-style: bold;
     padding: 0;
     margin: 0;
+    overflow: hidden;
   }
 
   main {
@@ -30,7 +31,7 @@
   }
 
   #grid {
-    display: flex1;
+    display: flex;
     flex-direction: column;
     margin: auto;
     padding: 2em 0;
@@ -158,6 +159,11 @@
     width: 60%;
     margin: auto;
   }
+
+  figcaption {
+    font-size: 1em;
+    margin: auto;
+  }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   body {
@@ -274,7 +280,7 @@
   }
 
   .pic {
-    height: 80%;
+    height: 75%;
     width: 100%;
     objekt-fit: cover;
   }
@@ -313,6 +319,11 @@
     text-align: center;
     font-weight: bolder;
     width: 60%;
+    margin: auto;
+  }
+
+  figcaption {
+    font-size: 1em;
     margin: auto;
   }
 }
@@ -469,6 +480,11 @@
     text-align: center;
     font-weight: bolder;
     width: 60%;
+    margin: auto;
+  }
+
+  figcaption {
+    font-size: 1em;
     margin: auto;
   }
 }/*# sourceMappingURL=style.css.map */
