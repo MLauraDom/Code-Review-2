@@ -119,7 +119,9 @@
   }
 
   .pic {
-    height: 80%;
+    height: 75%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 
   .text {
@@ -283,7 +285,6 @@
 
   .pic {
     height: 75%;
-    width: 100%;
     objekt-fit: cover;
   }
 
@@ -370,8 +371,7 @@
   }
 
   .pic {
-    height: 80%;
-    width: 100%;
+    height: 75%;
     -o-object-fit: cover;
        object-fit: cover;
   }
